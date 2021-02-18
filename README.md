@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://recordit.co/pmVhunS0NR" width=250><br>
+<img src="http://g.recordit.co/pmVhunS0NR.gif" width=250><br>
 
 ### Notes
 I struggled for a while with the closure when retrieving the data from the videos end point to show the trailer because I didn't understand why variables I created in it were turning nil, but I was able to resolve the issue and understand why my variables were turning nil inside it.
