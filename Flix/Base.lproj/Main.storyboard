@@ -130,7 +130,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Rq5-Qg-HwJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dYs-G8-UMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="anB-dq-ERC" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aWI-Q5-Xky">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -142,13 +141,13 @@
                         <segue destination="e6V-Ug-Por" kind="relationship" relationship="viewControllers" id="o36-cx-Nmt"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYs-G8-UMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-65" y="-888"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="d1y-H8-WSI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SD2-b6-7FM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="2FL-gh-JKq" customClass="MovieGridViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tch-Ap-L78">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -195,6 +194,7 @@
                         <outlet property="collectionView" destination="0i3-6j-93r" id="35h-6b-BwQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SD2-b6-7FM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1228.985507246377" y="569.86607142857144"/>
         </scene>
@@ -275,7 +275,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="W2M-3w-dPG" id="5Tv-MQ-JZt"/>
+                        <outlet property="webView" destination="W2M-3w-dPG" id="lLG-zl-V2D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIV-yn-hTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -304,7 +304,6 @@
         <!--Superhero-->
         <scene sceneID="6IX-rb-DV5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uck-Bh-h0d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e6V-Ug-Por" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Superhero" image="superhero_tabbar_item" id="g4q-8j-VEp"/>
                     <toolbarItems/>
@@ -317,6 +316,7 @@
                         <segue destination="2FL-gh-JKq" kind="relationship" relationship="rootViewController" id="D7p-dn-8qT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uck-Bh-h0d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1231.8840579710145" y="-127.23214285714285"/>
         </scene>
